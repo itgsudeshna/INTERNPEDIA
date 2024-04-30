@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create a Landing Page Website</title>
+    <title>Login Form</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
-
-    <section>
-        <div class="container">
-            <nav>
-                <h1>Logo</h1>
-                <ul>
-                    <li><a href="" class="active">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="article">
-                <h1>Best HTML Website Templates</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, laboriosam aut rerum deleniti ratione iusto corrupti. Cupiditate, recusandae. Debitis laborum animi, rerum iste nobis perspiciatis illo totam voluptates assumenda aspernatur!<br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nobis adipisci dolor ipsa officiis porro ex, nam laudantium qui necessitatibus exercitationem, ratione est voluptatum earum dolore voluptate eius veritatis reprehenderit.
-                </p>
-                <a href="" class="btn">Download Now</a>
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="username" required>
+                
+                <i class='bx bxs-user' ></i>
             </div>
-        </div>
-    </section>
+            <div class="input-box">
+                <input type="password" placeholder="Password"required>
+                <i class='bx bx-lock'></i>
+            </div>
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox">Remember Me
+                </label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="register-link">
+                <p>Don't have an account?<a href="#">Register</a></p>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
